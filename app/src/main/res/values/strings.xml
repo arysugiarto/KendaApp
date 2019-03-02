@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KendaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ob_get_started">GET STARTED</string>
+    <string name="ob_header1">Temukan Jasa Kesenian</string>
+    <string name="ob_header2">Promosikan Sanggar Senimu </string>
+    <string name="ob_header3">Lebih Mudah Membayar Jasa Seni </string>
+
+    <string name="ob_desc1">Dapatkan dan cari sanggar seni di sekitar daerah mu</string>
+    <string name="ob_desc2">Daftarkan sanggar seni kamu lalu kamu bisa promosikannya.</string>
+    <string name="ob_desc3">Pembayaran jasa kesenian lebih mudah dan sesuai.</string>
+</resources>
