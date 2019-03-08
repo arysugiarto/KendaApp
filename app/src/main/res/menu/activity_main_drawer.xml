@@ -5,33 +5,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_home"
+            android:title="Beranda" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_pesanan"
+            android:icon="@drawable/ic_book"
+            android:title="Pemesanan" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_favorit"
+            android:icon="@drawable/ic_heart"
+            android:title="Favorit" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_pesanan_anda"
+            android:icon="@drawable/ic_success"
+            android:title="Pesanan Anda" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_envelope"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_acara"
+            android:icon="@drawable/ic_if_jee01_05_2180879"
+            android:title="Acara" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:icon="@drawable/ic_agenda"
+                android:title="Pengaturan" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@drawable/ic_info"
+                android:title="Info" />
         </menu>
     </item>
 

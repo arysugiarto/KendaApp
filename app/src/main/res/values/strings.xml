@@ -14,4 +14,11 @@
     <string name="ob_desc1">Dapatkan dan cari sanggar seni di sekitar daerah mu</string>
     <string name="ob_desc2">Daftarkan sanggar seni kamu lalu kamu bisa promosikannya.</string>
     <string name="ob_desc3">Pembayaran jasa kesenian lebih mudah dan sesuai.</string>
+    <string name="daftar">Daftar</string>
+    <string name="btn_login">Login</string>
+    <string name="name">Nama</string>
+    <string name="lihat_profile">Lihat Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

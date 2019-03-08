@@ -10,7 +10,7 @@
         android:id="@+id/pager_introduction"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/viewPagerCountDots" />
+        android:layout_above="@+id/viewPagerCountDots"/>
 
     <LinearLayout
         android:id="@+id/viewPagerCountDots"
@@ -43,8 +43,6 @@
             android:textColor="#052D61"
             android:textSize="@dimen/button_text"
             android:visibility="gone" />
-
-
     </LinearLayout>
 
 

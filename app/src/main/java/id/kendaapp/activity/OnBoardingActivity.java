@@ -84,7 +84,7 @@ public class OnBoardingActivity extends AppCompatActivity {
         btn_get_started.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent moveIntent = new Intent(OnBoardingActivity.this, MainActivity.class);
+                Intent moveIntent = new Intent(OnBoardingActivity.this, RegisterActivity.class);
                 startActivity(moveIntent);
             }
         });
