@@ -1,5 +1,6 @@
 package id.kendaapp.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
@@ -16,6 +17,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import id.kendaapp.R;
 
@@ -23,7 +27,10 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener{
 
     CardView cvList;
+    ImageView imageView;
 
+
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +58,19 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+//        NavigationView navigationView = findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
+
+        ImageView ib = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.imageView);
+        ib.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                //DO YOUR CODE
+                Intent moveIntent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(moveIntent);
+            }
+        });
     }
 
     @Override
@@ -59,9 +79,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.cv_list:
                 Intent moveIntent = new Intent(MainActivity.this, DetailActivity.class);
                 startActivity(moveIntent);
-                break;
         }
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
